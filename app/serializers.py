@@ -6,12 +6,16 @@ from django.contrib.auth.models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
+    owner = serializers.ReadOnlyField(source='owner.username')
+
     class Meta:
         model = User
         fields = ['id', 'username', 'email', 'first_name', 'last_name']
 
 
 class HouseModelSerializer(serializers.ModelSerializer):
+    owner = serializers.ReadOnlyField(source='owner.username')
+
     class Meta:
         model = House
         fields = '__all__'
