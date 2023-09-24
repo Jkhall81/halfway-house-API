@@ -1,11 +1,12 @@
 from django.db import models
 from django.core.exceptions import ValidationError
+import re
 
 # Custom phone number validator
 
 
 def validate_phone_number_format(value):
-    if not value or not value.match(r'^\d{3}-\d{3}-\d{4}$'):
+    if not value or not re.match(r'^\d{3}-\d{3}-\d{4}$', value):
         raise ValidationError(
             'Phone number must be in the format xxx-xxx-xxxx')
 
