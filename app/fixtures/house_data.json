@@ -3,6 +3,7 @@
     "model": "app.House",
     "pk": 1,
     "fields": {
+      "owner": 1,
       "address": "17030 N 42nd Ave Glendale, AZ 85308",
       "total_number_of_beds": 13,
       "number_of_beds_open": 2,
@@ -18,6 +19,7 @@
     "model": "app.House",
     "pk": 2,
     "fields": {
+      "owner": 1,
       "address": "17450 N 35nd Ave Glendale, AZ 85308",
       "total_number_of_beds": 13,
       "number_of_beds_open": 4,
@@ -33,6 +35,7 @@
     "model": "app.House",
     "pk": 3,
     "fields": {
+      "owner": 1,
       "address": "15320 N 29nd Ave Glendale, AZ 85308",
       "total_number_of_beds": 13,
       "number_of_beds_open": 1,
@@ -48,6 +51,7 @@
     "model": "app.House",
     "pk": 4,
     "fields": {
+      "owner": 1,
       "address": "17032 N 12nd Ave Glendale, AZ 85308",
       "total_number_of_beds": 12,
       "number_of_beds_open": 2,

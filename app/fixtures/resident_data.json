@@ -3,6 +3,7 @@
     "model": "app.Resident",
     "pk": 1,
     "fields": {
+      "owner": 1,
       "house": 1,
       "name": "Jason Hall",
       "phone_number": "623-206-2944",
@@ -15,6 +16,7 @@
     "model": "app.Resident",
     "pk": 2,
     "fields": {
+      "owner": 1,
       "house": 1,
       "name": "James Signs",
       "phone_number": "623-206-2943",
@@ -27,6 +29,7 @@
     "model": "app.Resident",
     "pk": 3,
     "fields": {
+      "owner": 1,
       "house": 2,
       "name": "Billy SadInmate",
       "phone_number": "623-206-2924",
@@ -39,6 +42,7 @@
     "model": "app.Resident",
     "pk": 4,
     "fields": {
+      "owner": 1,
       "house": 3,
       "name": "Society's Garbage",
       "phone_number": "623-226-2944",
