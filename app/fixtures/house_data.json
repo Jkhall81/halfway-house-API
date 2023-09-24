@@ -1,0 +1,62 @@
+[
+  {
+    "model": "app.House",
+    "pk": 1,
+    "fields": {
+      "address": "17030 N 42nd Ave Glendale, AZ 85308",
+      "total_number_of_beds": 13,
+      "number_of_beds_open": 2,
+      "parking_capacity": 5,
+      "house_manager": "Roy Romero",
+      "house_manager_phone_number": "602-518-8301",
+      "cost_of_rent": 170,
+      "rent_interval": "weekly",
+      "sober_living_house": true
+    }
+  },
+  {
+    "model": "app.House",
+    "pk": 2,
+    "fields": {
+      "address": "17450 N 35nd Ave Glendale, AZ 85308",
+      "total_number_of_beds": 13,
+      "number_of_beds_open": 4,
+      "parking_capacity": 5,
+      "house_manager": "Andy Hernandez",
+      "house_manager_phone_number": "602-518-8301",
+      "cost_of_rent": 170,
+      "rent_interval": "weekly",
+      "sober_living_house": true
+    }
+  },
+  {
+    "model": "app.House",
+    "pk": 3,
+    "fields": {
+      "address": "15320 N 29nd Ave Glendale, AZ 85308",
+      "total_number_of_beds": 13,
+      "number_of_beds_open": 1,
+      "parking_capacity": 5,
+      "house_manager": "Johnny Fentanyl",
+      "house_manager_phone_number": "602-518-8301",
+      "cost_of_rent": 170,
+      "rent_interval": "weekly",
+      "sober_living_house": true
+    }
+  },
+  {
+    "model": "app.House",
+    "pk": 4,
+    "fields": {
+      "address": "17032 N 12nd Ave Glendale, AZ 85308",
+      "total_number_of_beds": 12,
+      "number_of_beds_open": 2,
+      "parking_capacity": 5,
+      "house_manager": "Stephen Hogue",
+      "house_manager_phone_number": "602-518-8301",
+      "cost_of_rent": 170,
+      "rent_interval": "weekly",
+      "sober_living_house": true
+    }
+  }
+]

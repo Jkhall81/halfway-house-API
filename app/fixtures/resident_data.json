@@ -1,0 +1,50 @@
+[
+  {
+    "model": "app.Resident",
+    "pk": 1,
+    "fields": {
+      "house": 1,
+      "name": "Jason Hall",
+      "phone_number": "623-206-2944",
+      "is_employed": true,
+      "felony_record": true,
+      "taking_psych_meds": false
+    }
+  },
+  {
+    "model": "app.Resident",
+    "pk": 2,
+    "fields": {
+      "house": 1,
+      "name": "James Signs",
+      "phone_number": "623-206-2943",
+      "is_employed": true,
+      "felony_record": true,
+      "taking_psych_meds": true
+    }
+  },
+  {
+    "model": "app.Resident",
+    "pk": 3,
+    "fields": {
+      "house": 2,
+      "name": "Billy SadInmate",
+      "phone_number": "623-206-2924",
+      "is_employed": true,
+      "felony_record": true,
+      "taking_psych_meds": true
+    }
+  },
+  {
+    "model": "app.Resident",
+    "pk": 4,
+    "fields": {
+      "house": 3,
+      "name": "Society's Garbage",
+      "phone_number": "623-226-2944",
+      "is_employed": true,
+      "felony_record": true,
+      "taking_psych_meds": true
+    }
+  }
+]

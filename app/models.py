@@ -21,11 +21,13 @@ class House(models.Model):
     house_manager_phone_number = models.CharField(
         max_length=12, validators=[validate_phone_number_format])
     cost_of_rent = models.IntegerField()
+    rent_interval = models.CharField(max_length=100)
     sober_living_house = models.BooleanField()
 
 
 class Resident(models.Model):
-    house = models.ForeignKey(House, related_name='residents')
+    house = models.ForeignKey(
+        House, related_name='residents', on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
     phone_number = models.CharField(max_length=12, validators=[
                                     validate_phone_number_format])
