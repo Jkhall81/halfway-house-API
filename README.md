@@ -34,10 +34,62 @@ Navigate to the project directory where you cloned the repository and run the fo
 docker-compose up --build
 ```
 
-This command will start the Django development server and the SQLite database container.
+This command will start the Django development server and the SQLite database container.  The database container will also be populated with some house and resident data from the Django fixture files.
 
-3.  Populate the 
+3.  Access the API
 
-4.  Access the API
+Once the containers are up and running, you can access the API at http://localhost:8000.  You can now start developing and testing your Django REST Framework API.
 
-Once the containers are up and running, you can access the API at http://localhost:8000.  You can now start developing and testing 
+4. Project Structure
+
+```
+.
+├── apps
+│   ├── comment
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── routers.py
+│   │   ├── serializers.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── post
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── routers.py
+│   │   ├── serializers.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   └── user
+│       ├── admin.py
+│       ├── apps.py
+│       ├── __init__.py
+│       ├── models.py
+│       ├── pagination.py
+│       ├── routers.py
+│       ├── serializers.py
+│       ├── tests.py
+│       ├── urls.py
+│       └── views.py
+├── core
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── docker-compose.yml
+├── Dockerfile
+├── manage.py
+├── requirements.txt
+└── static
+```
+
+5. Documentation
+
+This project uses Swagger.  After the project is setup visit http://localhost:8000/swagger to view all API endpoints and documentation on those endpoints!
+
